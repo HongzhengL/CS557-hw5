@@ -2,8 +2,7 @@
 
 #include <memory>
 
-struct CSRMatrix
-{
+struct CSRMatrix {
     int mSize;
     std::unique_ptr<int> mRowOffsets;
     std::unique_ptr<int> mColumnIndices;

@@ -4,4 +4,3 @@
 #include "Parameters.h"
 
 CSRMatrix BuildUpperTriangularLaplacianMatrix();
-
